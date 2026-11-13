@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pooja Sachan | CITS Trainee – CSA</title>
+  <meta name="description" content="Portfolio of Pooja Sachan, CITS Trainee (CSA) at NSTI Kanpur. Skills in Python, MS Office and AI tools." />
+  <meta name="theme-color" content="#0f4c81" />
+
+  <!-- Open Graph (link preview when shared) -->
+  <meta property="og:title" content="Pooja Sachan | CITS Trainee – CSA" />
+  <meta property="og:description" content="Portfolio of Pooja Sachan – skills, projects, training and certifications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <!-- Favicon: simple inline SVG so no extra file is needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f4c81'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EPS%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts (falls back to system fonts if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Go to top">Pooja<span>.</span></a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#training" class="nav-link">Training</a></li>
+          <li><a href="#certifications" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Switch between light and dark theme" title="Toggle theme">
+          <span id="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button id="menu-toggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ 1. HOME ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <!-- EDIT: your name -->
+          <h1>Pooja Sachan</h1>
+          <!-- EDIT: your professional headline -->
+          <h2 class="headline">CITS Trainee – CSA</h2>
+          <!-- EDIT: short introduction -->
+          <p class="intro">
+            I am a CITS trainee at NSTI Kanpur in the Computer Software Application (CSA) trade,
+            learning Python and building a machine-learning healthcare project.
+          </p>
+          <div class="btn-row">
+            <!-- EDIT: resume file lives at assets/documents/resume.pdf -->
+            <a href="assets/documents/resume.pdf" class="btn btn-primary" download>⬇ Download Resume</a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <!-- EDIT: replace assets/images/profile.jpg to change your photo -->
+            <img src="assets/images/profile.jpg" alt="Portrait of Pooja Sachan" width="350" height="383"
+                 onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'photo-fallback',textContent:'PS'}))" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="section-title reveal">About Me</h2>
+        <!-- EDIT: about text -->
+        <p class="about-text reveal">
+          I am Pooja Sachan from Kanpur Dehat, Uttar Pradesh. I completed my ITI at Government ITI Bhognipur
+          and am now pursuing CITS in the CSA trade at NSTI Kanpur (session 2026–27).
+          I work with Core Python, MS Office, Excel, Tally, AutoCAD and AI tools.
+          I built an AI Healthcare Prediction System as my project, and I enjoy solving problems and working in a team.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 3. EDUCATION ============ -->
+    <section id="education" class="section alt">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+
+          <!-- EDIT: copy this block to add more qualifications -->
+          <article class="timeline-item reveal">
+            <span class="badge">Pursuing</span>
+            <h3>CITS – Computer Software Application (CSA)</h3>
+            <p class="muted">NSTI Kanpur</p>
+            <p>Session: 2026–27</p>
+          </article>
+
+          <article class="timeline-item reveal">
+            <h3>ITI</h3>
+            <p class="muted">Government ITI Bhognipur, Kanpur Dehat</p>
+            <p>Passing Year: 2025–2026</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="grid grid-4">
+
+          <div class="card reveal">
+            <div class="card-icon" aria-hidden="true">🐍</div>
+            <h3>Core Trade Skills</h3>
+            <ul class="tags">
+              <li>Core Python</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-icon" aria-hidden="true">💻</div>
+            <h3>Computer Skills</h3>
+            <ul class="tags">
+              <li>MS Office</li>
+              <li>Excel</li>
+              <li>Internet</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-icon" aria-hidden="true">🛠️</div>
+            <h3>Software &amp; Tools</h3>
+            <ul class="tags">
+              <li>AutoCAD</li>
+              <li>Tally</li>
+              <li>Python</li>
+              <li>AI Tools</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Soft Skills</h3>
+            <ul class="tags">
+              <li>Communication</li>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. PROJECTS ============ -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="grid grid-3" id="project-grid">
+
+          <!-- EDIT: copy this whole <article> to add another project -->
+          <article class="card project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/project-ai-healthcare.jpg" alt="AI Healthcare project cover image" loading="lazy" width="500" height="280" />
+            </div>
+            <div class="project-body">
+              <h3>AI Healthcare</h3>
+              <p>
+                An AI-powered Healthcare Prediction System using Machine Learning to analyze
+                health-related data and predict potential health risks.
+              </p>
+              <p class="role"><strong>My Role:</strong> Project Developer</p>
+              <ul class="tags small">
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Scikit-learn</li>
+                <li>Matplotlib</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Flask</li>
+              </ul>
+              <!-- EDIT: put your project GitHub link in href and remove the "hidden" attribute -->
+              <!-- [ADD PROJECT GITHUB LINK] -->
+              <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer" hidden>View Code</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. TRAINING ============ -->
+    <!-- If you ever remove this training, delete this whole section and the "Training" nav link above. -->
+    <section id="training" class="section">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Training</h2>
+        <article class="card reveal">
+          <h3>Trainee – Unique Computer</h3>
+          <p class="muted">Duration: 15 days</p>
+          <p><strong>Skills learned:</strong></p>
+          <ul class="tags">
+            <li>MS Excel</li>
+            <li>MS Word</li>
+            <li>PowerPoint</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 7. CERTIFICATIONS ============ -->
+    <section id="certifications" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Certifications</h2>
+        <div class="grid grid-2">
+
+          <!-- EDIT: copy this block to add more certificates -->
+          <article class="card cert reveal">
+            <div class="card-icon" aria-hidden="true">🏅</div>
+            <h3>AI Literacy</h3>
+            <p class="muted">IBM SkillsBuild</p>
+            <p>Year: 2026 (issued 29 Oct 2026)</p>
+            <div class="btn-row">
+              <a href="assets/certificates/ai-literacy-ibm-skillsbuild.pdf" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">View Certificate</a>
+              <a href="https://www.credly.com/go/5cZ81TTO" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">Verify on Credly</a>
+            </div>
+          </article>
+
+          <article class="card cert reveal">
+            <div class="card-icon" aria-hidden="true">🏅</div>
+            <h3>CCC (Course on Computer Concepts)</h3>
+            <p class="muted">NIELIT</p>
+            <p>Year: 2026</p>
+            <!-- EDIT: add a link to your CCC certificate file here if you want -->
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="center reveal">Feel free to reach out. I would be happy to hear from you.</p>
+        <div class="grid grid-2 contact-grid">
+
+          <!-- EDIT: your email -->
+          <a class="card contact-card reveal" href="mailto:poojasachan165@gmail.com">
+            <span class="card-icon" aria-hidden="true">✉️</span>
+            <span><strong>Email</strong><br />poojasachan165@gmail.com</span>
+          </a>
+
+          <!-- EDIT: your phone. Remove this card if you do not want your number public -->
+          <a class="card contact-card reveal" href="tel:+919170168360">
+            <span class="card-icon" aria-hidden="true">📞</span>
+            <span><strong>Phone</strong><br />+91 91701 68360</span>
+          </a>
+
+          <!-- EDIT: your LinkedIn -->
+          <a class="card contact-card reveal" href="https://www.linkedin.com/in/pooja-sachan-b91696448" target="_blank" rel="noopener noreferrer">
+            <span class="card-icon" aria-hidden="true">🔗</span>
+            <span><strong>LinkedIn</strong><br />pooja-sachan</span>
+          </a>
+
+          <!-- EDIT: your GitHub -->
+          <a class="card contact-card reveal" href="https://github.com/poojasachan123" target="_blank" rel="noopener noreferrer">
+            <span class="card-icon" aria-hidden="true">🐙</span>
+            <span><strong>GitHub</strong><br />poojasachan123</span>
+          </a>
+
+        </div>
+        <p class="center muted reveal">📍 Kanpur Dehat, Uttar Pradesh, India</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Pooja Sachan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="to-top" class="to-top" aria-label="Back to top" hidden>↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
